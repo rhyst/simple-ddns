@@ -1,0 +1,9 @@
+auth.py
+settings.py
+
+
+venv/
+nginx/
+
+*.log
+__pycache__
