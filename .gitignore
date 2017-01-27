@@ -7,3 +7,5 @@ nginx/
 
 *.log
 __pycache__
+*.pyc
+*.py.swp
