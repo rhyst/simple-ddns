@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ "$1" == "dns" ]]
+then
+	sudo systemctl status dns.service
+elif [[ "$1" == "celery" ]]
+then
+	sudo systemctl status dns_celery.service
+fi

@@ -1,0 +1,10 @@
+#!/bin/bash
+if [[ "$1" == "dns" ]]
+then
+	echo "Restarting dns"
+	sudo systemctl restart dns.service
+elif [[ "$1" == "celery" ]]
+then
+	echo "Restarting celery"
+	sudo systemctl restart dns_celery.service
+fi
